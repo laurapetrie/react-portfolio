@@ -18,6 +18,11 @@
   font-family: var(--primary-font-family);
 }
 
+.Home .container {
+  max-width: 1200px;
+  margin: 200px auto;
+}
+
 .Home .home-text {
   padding-top: 84px;
   padding-right: 20px;

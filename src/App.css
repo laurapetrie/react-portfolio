@@ -7,12 +7,3 @@
   --bg-color: #f9f5eb;
   --hover-color: #e4dccf;
 }
-
-body {
-  background-color: var(--bg-color);
-}
-
-.container {
-  max-width: 1200px;
-  margin: 100px auto;
-}

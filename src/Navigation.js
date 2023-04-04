@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg" fixed="top">
       <Container>
         <Nav.Link to="/">laura petrie</Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
