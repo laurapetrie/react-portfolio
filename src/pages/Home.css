@@ -1,0 +1,45 @@
+.Home h1 {
+  color: var(--secondary-color);
+  font-size: 4rem;
+  margin-bottom: 32px;
+  font-family: var(--primary-font-family);
+}
+
+.Home h2 {
+  color: var(--primary-color);
+  font-size: 3.5rem;
+  margin-bottom: 32px;
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
+}
+
+.Home h3 {
+  color: var(--tertiary-color);
+  font-family: var(--primary-font-family);
+}
+
+.Home .home-text {
+  padding-top: 84px;
+  padding-right: 20px;
+}
+
+.Home .profile-picture {
+  max-width: 400px;
+  max-height: 500px;
+  border-radius: 4px;
+}
+
+.Home .home-socials {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  background: var(--tertiary-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 10px 14px 10px 10px;
+  border-radius: 0 4px 4px 0;
+}
+
+.Home .home-social a {
+  font-size: 2rem;
+  color: var(--secondary-color);
+}
