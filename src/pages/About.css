@@ -1,10 +1,33 @@
+.About h1 {
+  color: var(--primary-color);
+  font-size: 4rem;
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
+}
+
+.About h4 {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color);
+}
+
+.About p {
+  font-family: var(--primary-font-family);
+  color: var(--tertiary-color);
+  line-height: 28px;
+  text-align: justify;
+}
+
+.About .about-text {
+  padding-right: 60px;
+}
+
 .About .profile-picture {
-  max-width: 350px;
-  max-height: 450px;
-  border-radius: 4px;
+  max-width: 300px;
+  max-height: 400px;
+  border-radius: 10px;
 }
 
 .About .container {
   max-width: 1200px;
-  margin: 180px auto;
+  margin: 170px auto;
 }
