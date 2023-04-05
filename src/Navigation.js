@@ -8,7 +8,9 @@ function Navigation() {
   return (
     <Navbar expand="lg" fixed="top">
       <Container>
-        <Nav.Link to="/">laura petrie</Nav.Link>
+        <Nav.Link as={NavLink} to="/">
+          laura petrie
+        </Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-links">
