@@ -1,0 +1,10 @@
+.About .profile-picture {
+  max-width: 350px;
+  max-height: 450px;
+  border-radius: 4px;
+}
+
+.About .container {
+  max-width: 1200px;
+  margin: 180px auto;
+}

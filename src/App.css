@@ -1,9 +1,7 @@
 :root {
   --primary-font-family: "Quicksand", sans-serif;
   --secondary-font-family: "Bona Nova", serif;
-  --primary-color: #002b5b;
-  --secondary-color: #ea5455;
-  --tertiary-color: #36454f;
-  --bg-color: #f9f5eb;
-  --hover-color: #e4dccf;
+  --primary-color: #facf2d;
+  --secondary-color: #002b5b;
+  --tertiary-color: #4c4c4c;
 }

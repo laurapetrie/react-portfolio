@@ -1,3 +1,19 @@
-.Navigation .container {
-  margin: 30px auto;
+.container {
+  margin: 20px auto;
+}
+
+.navbar {
+  font-family: var(--primary-font-family);
+  color: var(--primary-color);
+  font-size: 20px;
+  background: #fff;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.nav-links {
+  justify-content: flex-end;
+  text-align: end;
 }

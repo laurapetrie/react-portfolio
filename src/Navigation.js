@@ -11,7 +11,7 @@ function Navigation() {
         <Nav.Link to="/">laura petrie</Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="nav-links">
             <Nav.Link as={NavLink} to="/">
               Home
             </Nav.Link>
