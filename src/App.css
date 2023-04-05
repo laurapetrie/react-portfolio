@@ -5,3 +5,9 @@
   --secondary-color: #002b5b;
   --tertiary-color: #4c4c4c;
 }
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
