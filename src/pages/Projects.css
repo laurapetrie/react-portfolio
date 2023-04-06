@@ -5,7 +5,17 @@
   font-weight: 600;
 }
 
+.Projects img {
+  border-radius: 4px;
+  height: 337px;
+}
+
 .Projects .container {
   max-width: 1200px;
   margin: 170px auto;
+}
+
+.Projects .projects-container {
+  margin-top: 60px;
+  padding: 0;
 }
