@@ -1,0 +1,11 @@
+.Projects h1 {
+  color: var(--primary-color);
+  font-size: 4rem;
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
+}
+
+.Projects .container {
+  max-width: 1200px;
+  margin: 170px auto;
+}

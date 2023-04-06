@@ -1,0 +1,23 @@
+.Contact h1 {
+  color: var(--primary-color);
+  font-size: 4rem;
+  font-family: var(--secondary-font-family);
+  font-weight: 600;
+}
+
+.Contact h2 {
+  font-family: var(--primary-font-family);
+  color: var(--secondary-color);
+}
+
+.Contact .container {
+  max-width: 1200px;
+  margin: 170px auto;
+}
+
+.Contact a {
+  text-decoration: none;
+  font-family: var(--primary-font-family);
+  font-size: 1.5rem;
+  color: var(--tertiary-color);
+}
