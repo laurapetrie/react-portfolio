@@ -18,13 +18,13 @@
   font-family: var(--primary-font-family);
 }
 
-.Home .home-text {
-  text-align: center;
+.Home .main {
+  max-width: 1200px;
+  margin: 170px auto;
 }
 
-.Home .container {
-  max-width: 900px;
-  margin: 170px auto;
+.Home .home-text {
+  text-align: center;
 }
 
 .Home .home-socials {
