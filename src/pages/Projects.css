@@ -8,13 +8,13 @@
 .Projects h4 {
   font-family: var(--primary-font-family);
   color: var(--secondary-color);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .Projects img {
   border-radius: 4px;
   height: 337px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .Projects .main {

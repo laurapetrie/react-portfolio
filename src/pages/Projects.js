@@ -1,6 +1,8 @@
 import "./Projects.css";
 import ReactWeatherApp from "./react-weather-app.png";
 import ReactDictionaryApp from "./react-dictionary-app.png";
+import ResponsiveWebsite from "./responsive-website.png";
+import JavascriptWeatherApp from "./vanillajs-weather-app.png";
 
 function Projects() {
   return (
@@ -8,7 +10,7 @@ function Projects() {
       <div className="main">
         <h1>Projects</h1>
         <div className="container">
-          <div className="row">
+          <div className="row mb-4">
             <div className="col-md-6">
               <h4>Weather App remade in React</h4>
               <img
@@ -36,6 +38,38 @@ function Projects() {
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
+                <div className="technology">JavaScript</div>
+                <div className="technology">React</div>
+                <div className="technology">API</div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">
+              <h4>Responsive Website</h4>
+              <img
+                src={ResponsiveWebsite}
+                className="project-img img-fluid"
+                alt="responsive-website"
+              />
+              <div className="technologies">
+                <div className="technology">HTML</div>
+                <div className="technology">CSS</div>
+                <div className="technology">Bootstrap</div>
+                <div className="technology">SEO</div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <h4>Vanilla JS Weather App</h4>
+              <img
+                src={JavascriptWeatherApp}
+                className="project-img img-fluid"
+                alt="react-weather-app"
+              />
+              <div className="technologies">
+                <div className="technology">HTML</div>
+                <div className="technology">CSS</div>
+                <div className="technology">Bootstrap</div>
                 <div className="technology">JavaScript</div>
                 <div className="technology">React</div>
                 <div className="technology">API</div>
