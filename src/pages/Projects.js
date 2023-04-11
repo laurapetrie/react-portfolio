@@ -12,7 +12,7 @@ function Projects() {
         <div className="container">
           <div className="row mb-4">
             <div className="col-md-6">
-              <h4>Weather App remade in React</h4>
+              <h4>Weather App rebuilt in React</h4>
               <img
                 src={ReactWeatherApp}
                 className="project-img img-fluid"

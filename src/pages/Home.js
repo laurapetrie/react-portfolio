@@ -1,4 +1,8 @@
 import "./Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
   return (
@@ -20,7 +24,7 @@ function Home() {
             rel="noreferrer"
             target="_blank"
           >
-            <i className="fa-brands fa-square-github"></i>
+            <FontAwesomeIcon icon={faGithubSquare} />
           </a>
         </div>
         <div class="home-social">
@@ -29,7 +33,7 @@ function Home() {
             rel="noreferrer"
             target="_blank"
           >
-            <i className="fa-brands fa-linkedin"></i>
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
         <div class="home-social">
@@ -38,7 +42,7 @@ function Home() {
             rel="noreferrer"
             target="_blank"
           >
-            <i className="fa-brands fa-square-instagram"></i>
+            <FontAwesomeIcon icon={faInstagramSquare} />
           </a>
         </div>
       </div>
