@@ -1,4 +1,8 @@
 import "./Contact.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
   return (
@@ -16,7 +20,7 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              GitHub
+              <FontAwesomeIcon icon={faGithubSquare} /> GitHub
             </a>
           </p>
 
@@ -26,7 +30,7 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
             </a>
           </p>
           <p>
@@ -35,7 +39,7 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              Instagram
+              <FontAwesomeIcon icon={faInstagramSquare} /> Instagram
             </a>
           </p>
         </div>
