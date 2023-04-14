@@ -1,8 +1,8 @@
 import "./Projects.css";
-import ReactWeatherApp from "./react-weather-app.png";
-import ReactDictionaryApp from "./react-dictionary-app.png";
-import ResponsiveWebsite from "./responsive-website.png";
-import JavascriptWeatherApp from "./vanillajs-weather-app.png";
+import ReactWeatherApp from "../images/react-weather-app.png";
+import ReactDictionaryApp from "../images/react-dictionary-app.png";
+import ResponsiveWebsite from "../images/responsive-website.png";
+import JavascriptWeatherApp from "../images/vanillajs-weather-app.png";
 
 function Projects() {
   return (
@@ -56,7 +56,6 @@ function Projects() {
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
                 <div className="technology">Bootstrap</div>
-                <div className="technology">SEO</div>
               </div>
             </div>
             <div className="col-md-6">
@@ -71,7 +70,6 @@ function Projects() {
                 <div className="technology">CSS</div>
                 <div className="technology">Bootstrap</div>
                 <div className="technology">JavaScript</div>
-                <div className="technology">React</div>
                 <div className="technology">API</div>
               </div>
             </div>
