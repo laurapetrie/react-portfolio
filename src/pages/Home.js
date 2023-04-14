@@ -3,18 +3,35 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <div className="Home">
       <div className="main">
         <div className="home-text">
-          <h2>Hello! I'm Laura</h2>
-          <h1>A frontend developer based in Leeds, UK</h1>
-          <h3>
+          <motion.h2
+            initial={{ y: -50 }}
+            animate={{ y: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+          >
+            Hello! I'm Laura
+          </motion.h2>
+          <motion.h1
+            initial={{ x: 100 }}
+            animate={{ x: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+          >
+            A frontend developer based in Leeds, UK
+          </motion.h1>
+          <motion.h3
+            initial={{ y: 50 }}
+            animate={{ y: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+          >
             I am passionate about web development, building connections and
             solving problems in a creative way
-          </h3>
+          </motion.h3>
         </div>
       </div>
       <div className="home-socials">
