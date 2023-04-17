@@ -40,3 +40,19 @@
   font-weight: 600;
   color: #fff;
 }
+
+@media only screen and (max-width: 992px) {
+  .Projects .main {
+    margin: 280px 16px 0;
+  }
+  .Projects h1 {
+    text-align: center;
+  }
+  .Projects h4 {
+    margin-top: 24px;
+  }
+  .Projects img {
+    width: 100%;
+    height: auto;
+  }
+}

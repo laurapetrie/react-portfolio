@@ -15,8 +15,9 @@ function Contact() {
         <div className="contact-socials">
           <p>
             <a href="mailto:laurajrpetrie@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} /> laurajrpetrie@gmail.com
+              <FontAwesomeIcon icon={faEnvelope} />
             </a>
+            laurajrpetrie@gmail.com
           </p>
           <p>
             <a
@@ -24,8 +25,9 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faGithubSquare} /> GitHub
+              <FontAwesomeIcon icon={faGithubSquare} />
             </a>
+            GitHub
           </p>
 
           <p>
@@ -34,8 +36,9 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
+            LinkedIn
           </p>
           <p>
             <a
@@ -43,13 +46,15 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faInstagramSquare} /> Instagram
+              <FontAwesomeIcon icon={faInstagramSquare} />
             </a>
+            Instagram
           </p>
           <p>
             <a href="/" rel="noreferrer" target="_blank">
-              <FontAwesomeIcon icon={faFile} /> Curriculum Vitae
+              <FontAwesomeIcon icon={faFile} />
             </a>
+            Curriculum Vitae
           </p>
         </div>
       </div>
