@@ -34,7 +34,7 @@ function Home() {
           </motion.h3>
         </div>
       </div>
-      <div className="home-socials">
+      <div className="home-socials d-none d-md-flex">
         <div class="home-social">
           <a
             href="https://github.com/laurapetrie"
