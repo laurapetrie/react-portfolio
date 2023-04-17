@@ -7,7 +7,7 @@ function About() {
       <div className="main">
         <div className="container">
           <div className="row">
-            <div className="about-text col-8">
+            <div className="about-text col-md-8">
               <h1>About</h1>
               <h4 className="mb-3">From florist to frontend...</h4>
               <p>
@@ -26,10 +26,10 @@ function About() {
                 far I'm loving the journey...
               </p>
             </div>
-            <div className="col-4">
+            <div className="col-md-4">
               <img
                 src={ProfileImage}
-                className="profile-picture"
+                className="profile-picture img-fluid"
                 alt="Laura Petrie"
               />
             </div>

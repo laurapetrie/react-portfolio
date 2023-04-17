@@ -31,3 +31,27 @@
   max-width: 1200px;
   margin: 170px auto;
 }
+
+@media only screen and (max-width: 992px) {
+  .About h1,
+  h4 {
+    text-align: center;
+  }
+  .About p {
+    text-align: left;
+  }
+  .About img {
+    display: none;
+  }
+  .About .main {
+    margin: 280px 12px 0;
+  }
+  .About .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .About .about-text {
+    padding-right: 12px;
+  }
+}
