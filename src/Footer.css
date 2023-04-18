@@ -1,6 +1,6 @@
 .Footer {
   font-family: var(--primary-font-family);
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-align: center;
   margin-top: auto;
   padding: 12px;

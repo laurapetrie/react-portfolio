@@ -1,10 +1,13 @@
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithubSquare,
+  faLinkedin,
+  faInstagramSquare,
+} from "@fortawesome/free-brands-svg-icons";
+
+const fontStyles = { color: "var(--contrast-color)", fontSize: "1.75rem" };
 
 function Contact() {
   return (
@@ -15,9 +18,9 @@ function Contact() {
         <div className="contact-socials">
           <p>
             <a href="mailto:laurajrpetrie@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} style={fontStyles} />{" "}
+              laurajrpetrie@gmail.com
             </a>
-            laurajrpetrie@gmail.com
           </p>
           <p>
             <a
@@ -25,9 +28,9 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faGithubSquare} />
+              <FontAwesomeIcon icon={faGithubSquare} style={fontStyles} />{" "}
+              GitHub
             </a>
-            GitHub
           </p>
 
           <p>
@@ -36,9 +39,8 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} style={fontStyles} /> LinkedIn
             </a>
-            LinkedIn
           </p>
           <p>
             <a
@@ -46,15 +48,15 @@ function Contact() {
               rel="noreferrer"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faInstagramSquare} />
+              <FontAwesomeIcon icon={faInstagramSquare} style={fontStyles} />{" "}
+              Instagram
             </a>
-            Instagram
           </p>
           <p>
             <a href="/" rel="noreferrer" target="_blank">
-              <FontAwesomeIcon icon={faFile} />
+              <FontAwesomeIcon icon={faFile} style={fontStyles} /> Curriculum
+              Vitae
             </a>
-            Curriculum Vitae
           </p>
         </div>
       </div>

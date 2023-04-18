@@ -10,19 +10,13 @@
   color: var(--secondary-color);
 }
 
-.Contact p {
-  font-family: var(--primary-font-family);
-  font-size: 1.5rem;
-  color: var(--secondary-color);
-}
-
 .Contact a {
   text-decoration: none;
   font-family: var(--primary-font-family);
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   color: var(--primary-color);
-  padding-right: 12px;
 }
+
 .Contact .main {
   max-width: 1200px;
   margin: 170px auto;

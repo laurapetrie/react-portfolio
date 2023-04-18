@@ -4,7 +4,7 @@
 
 .navbar {
   font-family: var(--primary-font-family);
-  color: var(--primary-color);
+  color: var(--contrast-color);
   font-size: 20px;
   background: #fff;
 }

@@ -21,10 +21,10 @@ function Projects() {
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
-                <div className="technology">Bootstrap</div>
                 <div className="technology">JavaScript</div>
-                <div className="technology">React</div>
                 <div className="technology">API</div>
+                <div className="technology">Bootstrap</div>
+                <div className="technology">React</div>
                 <div className="technology">npm</div>
               </div>
             </div>
@@ -38,9 +38,9 @@ function Projects() {
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
-                <div className="technology">JavaScript</div>
-                <div className="technology">React</div>
+                <div className="technology">JavaScript</div>{" "}
                 <div className="technology">API</div>
+                <div className="technology">React</div>
               </div>
             </div>
           </div>

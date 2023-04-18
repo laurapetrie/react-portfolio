@@ -1,8 +1,10 @@
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faInstagramSquare } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithubSquare,
+  faLinkedin,
+  faInstagramSquare,
+} from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 
 function Home() {
