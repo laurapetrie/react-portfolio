@@ -4,8 +4,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-const linkStyles = { color: "var(--secondary-color)" };
-
 function Navigation() {
   return (
     <Navbar expand="lg" fixed="top">
@@ -16,16 +14,16 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-links">
-            <Nav.Link as={NavLink} to="/" style={linkStyles}>
+            <Nav.Link as={NavLink} to="/">
               Home
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/about" style={linkStyles}>
+            <Nav.Link as={NavLink} to="/about">
               About
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/projects" style={linkStyles}>
+            <Nav.Link as={NavLink} to="/projects">
               Projects
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact" style={linkStyles}>
+            <Nav.Link as={NavLink} to="/contact">
               Contact
             </Nav.Link>
           </Nav>

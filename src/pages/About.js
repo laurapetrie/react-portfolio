@@ -17,8 +17,8 @@ function About() {
               </p>
               <p>
                 I have been a florist for around 15 years, both in the retail
-                and wedding and events environments. I love how satisfying it
-                can be to see a job through from initial concept to completion.
+                and wedding and events environments. I love how rewarding it can
+                be to see a job through from initial concept to completion.
                 Customer satisfaction, teamwork and creative problem solving are
                 the cornerstones of the profession.
               </p>

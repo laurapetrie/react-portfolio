@@ -9,6 +9,10 @@
   background: #fff;
 }
 
+.navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+
 .navbar-collapse {
   flex-grow: 0;
 }
