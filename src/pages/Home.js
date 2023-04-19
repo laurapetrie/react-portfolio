@@ -7,6 +7,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 
+const textTransition = "ease: easeOut, duration: 1";
+
 function Home() {
   return (
     <div className="Home">
@@ -15,21 +17,21 @@ function Home() {
           <motion.h2
             initial={{ y: -50 }}
             animate={{ y: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }}
+            transition={textTransition}
           >
             Hello! I'm Laura
           </motion.h2>
           <motion.h1
             initial={{ x: 100 }}
             animate={{ x: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }}
+            transition={textTransition}
           >
             A frontend developer based in Leeds, UK
           </motion.h1>
           <motion.h3
             initial={{ y: 50 }}
             animate={{ y: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }}
+            transition={textTransition}
           >
             I am passionate about web development, building connections and
             solving problems in a creative way
