@@ -39,7 +39,7 @@ function Home() {
         </div>
       </div>
       <div className="home-socials">
-        <div class="home-social">
+        <div className="home-social">
           <a
             href="https://github.com/laurapetrie"
             rel="noreferrer"
@@ -48,7 +48,7 @@ function Home() {
             <FontAwesomeIcon icon={faGithubSquare} />
           </a>
         </div>
-        <div class="home-social">
+        <div className="home-social">
           <a
             href="https://www.linkedin.com/in/laurapetrie/"
             rel="noreferrer"
@@ -57,7 +57,7 @@ function Home() {
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
-        <div class="home-social">
+        <div className="home-social">
           <a
             href="https://www.instagram.com/rosy_codes/"
             rel="noreferrer"
