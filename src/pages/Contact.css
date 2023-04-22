@@ -14,7 +14,7 @@
   text-decoration: none;
   font-family: var(--primary-font-family);
   font-size: 1.25rem;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 .Contact .main {
