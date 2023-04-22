@@ -1,6 +1,6 @@
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithubSquare,
   faLinkedin,
@@ -50,12 +50,6 @@ function Contact() {
             >
               <FontAwesomeIcon icon={faInstagramSquare} style={fontStyles} />{" "}
               Instagram
-            </a>
-          </p>
-          <p>
-            <a href="/" rel="noreferrer" target="_blank">
-              <FontAwesomeIcon icon={faFile} style={fontStyles} /> Curriculum
-              Vitae
             </a>
           </p>
         </div>

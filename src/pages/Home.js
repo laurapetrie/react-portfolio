@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
 
-const textTransition = "ease: easeOut, duration: 1";
+const textTransition = { ease: "linear", duration: 1, delay: 0.2 };
 
 function Home() {
   return (
