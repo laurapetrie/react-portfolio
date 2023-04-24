@@ -13,7 +13,11 @@ function Projects() {
           <div className="row mb-4">
             <div className="col-md-6">
               <h4>Weather App rebuilt in React</h4>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://laurapetrie-react-weather-app.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={ReactWeatherApp}
                   className="project-img img-fluid"
@@ -32,7 +36,11 @@ function Projects() {
             </div>
             <div className="col-md-6">
               <h4>React Dictionary App</h4>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://laurapetrie-react-dictionary.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={ReactDictionaryApp}
                   className="project-img img-fluid"
@@ -51,7 +59,11 @@ function Projects() {
           <div className="row">
             <div className="col-md-6">
               <h4>Responsive Website</h4>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://laurapetrie-responsive-website.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={ResponsiveWebsite}
                   className="project-img img-fluid"
@@ -66,7 +78,11 @@ function Projects() {
             </div>
             <div className="col-md-6">
               <h4>Vanilla JS Weather App</h4>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://laurapetrie-js-weather-app.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src={JavascriptWeatherApp}
                   className="project-img img-fluid"
