@@ -13,11 +13,13 @@ function Projects() {
           <div className="row mb-4">
             <div className="col-md-6">
               <h4>Weather App rebuilt in React</h4>
-              <img
-                src={ReactWeatherApp}
-                className="project-img img-fluid"
-                alt="react-weather-app"
-              />
+              <a href="/" target="_blank" rel="noreferrer">
+                <img
+                  src={ReactWeatherApp}
+                  className="project-img img-fluid"
+                  alt="react-weather-app"
+                />
+              </a>
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
@@ -30,11 +32,13 @@ function Projects() {
             </div>
             <div className="col-md-6">
               <h4>React Dictionary App</h4>
-              <img
-                src={ReactDictionaryApp}
-                className="project-img img-fluid"
-                alt="react-dictionary-app"
-              />
+              <a href="/" target="_blank" rel="noreferrer">
+                <img
+                  src={ReactDictionaryApp}
+                  className="project-img img-fluid"
+                  alt="react-dictionary-app"
+                />
+              </a>
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
@@ -47,11 +51,13 @@ function Projects() {
           <div className="row">
             <div className="col-md-6">
               <h4>Responsive Website</h4>
-              <img
-                src={ResponsiveWebsite}
-                className="project-img img-fluid"
-                alt="responsive-website"
-              />
+              <a href="/" target="_blank" rel="noreferrer">
+                <img
+                  src={ResponsiveWebsite}
+                  className="project-img img-fluid"
+                  alt="responsive-website"
+                />
+              </a>
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>
@@ -60,11 +66,13 @@ function Projects() {
             </div>
             <div className="col-md-6">
               <h4>Vanilla JS Weather App</h4>
-              <img
-                src={JavascriptWeatherApp}
-                className="project-img img-fluid"
-                alt="react-weather-app"
-              />
+              <a href="/" target="_blank" rel="noreferrer">
+                <img
+                  src={JavascriptWeatherApp}
+                  className="project-img img-fluid"
+                  alt="react-weather-app"
+                />
+              </a>
               <div className="technologies">
                 <div className="technology">HTML</div>
                 <div className="technology">CSS</div>

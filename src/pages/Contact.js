@@ -17,7 +17,11 @@ function Contact() {
         <h2 className="mb-4">I'd love to connect with you...</h2>
         <div className="contact-socials">
           <p>
-            <a href="mailto:laurajrpetrie@gmail.com">
+            <a
+              href="mailto:laurajrpetrie@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FontAwesomeIcon icon={faEnvelope} style={fontStyles} />{" "}
               laurajrpetrie@gmail.com
             </a>
