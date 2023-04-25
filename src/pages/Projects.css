@@ -1,5 +1,5 @@
 .Projects h1 {
-  color: var(--primary-color);
+  color: var(--contrast-color);
   font-size: 4rem;
   font-family: var(--secondary-font-family);
   font-weight: 600;
@@ -7,7 +7,7 @@
 
 .Projects h4 {
   font-family: var(--primary-font-family);
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin-bottom: 1.5rem;
 }
 

@@ -10,7 +10,7 @@
 }
 
 .navbar-nav .nav-link.active {
-  color: var(--primary-color);
+  color: var(--contrast-color);
 }
 
 .navbar-collapse {

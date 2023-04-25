@@ -1,10 +1,9 @@
 :root {
   --primary-font-family: "Quicksand", sans-serif;
   --secondary-font-family: "Bona Nova", serif;
-  --primary-color: #2ed0c2;
-  --secondary-color: #4c5270;
-  --tertiary-color: #4c4c4c;
-  --contrast-color: #f652a0;
+  --contrast-color: #5bc0be;
+  --primary-color: #1c2541;
+  --secondary-color: #3a506b;
 }
 
 .App {
