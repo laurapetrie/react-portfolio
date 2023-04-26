@@ -11,6 +11,11 @@
   margin-bottom: 1.5rem;
 }
 
+.Projects p {
+  color: var(--secondary-color);
+  font-family: var(--primary-font-family);
+}
+
 .Projects img {
   border-radius: 4px;
   height: 337px;

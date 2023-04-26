@@ -13,8 +13,11 @@ function Projects() {
         <div className="container">
           <div className="row mb-4">
             <div className="col-md-6">
-              <h4>Weather App rebuilt in React</h4>
-              <p>Lorem ipsum</p>
+              <h4>React Weather App</h4>
+              <p>
+                An interactive weather application, rebuilt in React, with the
+                inclusion of animated weather icons using npm.{" "}
+              </p>
               <a
                 href="https://laurapetrie-react-weather-app.netlify.app"
                 target="_blank"
@@ -38,6 +41,11 @@ function Projects() {
             </div>
             <div className="col-md-6">
               <h4>React Dictionary App</h4>
+              <p>
+                A clean and simple dictionary app displaying the phonetic
+                spelling, parts of speech and images related to the searched for
+                word.
+              </p>
               <a
                 href="https://laurapetrie-react-dictionary.netlify.app"
                 target="_blank"
@@ -61,6 +69,10 @@ function Projects() {
           <div className="row">
             <div className="col-md-6">
               <h4>Responsive Website</h4>
+              <p>
+                A website created with responsiveness in mind, utilising
+                Bootstrap and CSS flexbox.
+              </p>
               <a
                 href="https://laurapetrie-responsive-website.netlify.app"
                 target="_blank"
@@ -80,6 +92,10 @@ function Projects() {
             </div>
             <div className="col-md-6">
               <h4>Vanilla JS Weather App</h4>
+              <p>
+                An interactive weather application built with Vanilla JS, with a
+                5 day forecast and realtime local weather conditions.
+              </p>
               <a
                 href="https://laurapetrie-js-weather-app.netlify.app/"
                 target="_blank"
