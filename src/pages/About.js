@@ -1,4 +1,5 @@
 import "./About.css";
+import Socials from "./Socials";
 import ProfileImage from "../images/profile-image.jpg";
 
 function About() {
@@ -40,6 +41,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Socials />
     </div>
   );
 }

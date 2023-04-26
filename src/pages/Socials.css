@@ -1,0 +1,21 @@
+.Socials .home-socials {
+  position: fixed;
+  top: 51%;
+  transform: translateY(-50%);
+  background: var(--contrast-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 10px 14px 10px 10px;
+  border-radius: 0 4px 4px 0;
+}
+
+.Socials .home-social a {
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 10px 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .Socials .home-socials {
+    display: none;
+  }
+}

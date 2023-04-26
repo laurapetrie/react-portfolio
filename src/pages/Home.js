@@ -1,10 +1,5 @@
 import "./Home.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithubSquare,
-  faLinkedin,
-  faInstagramSquare,
-} from "@fortawesome/free-brands-svg-icons";
+import Socials from "./Socials";
 import { motion } from "framer-motion";
 
 const textTransition = { ease: "linear", duration: 1, delay: 0.2 };
@@ -38,35 +33,7 @@ function Home() {
           </motion.h3>
         </div>
       </div>
-      <div className="home-socials">
-        <div className="home-social">
-          <a
-            href="https://github.com/laurapetrie"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faGithubSquare} />
-          </a>
-        </div>
-        <div className="home-social">
-          <a
-            href="https://www.linkedin.com/in/laurapetrie/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </div>
-        <div className="home-social">
-          <a
-            href="https://www.instagram.com/rosy_codes/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faInstagramSquare} />
-          </a>
-        </div>
-      </div>
+      <Socials />
     </div>
   );
 }

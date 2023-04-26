@@ -1,4 +1,5 @@
 import "./Projects.css";
+import Socials from "./Socials";
 import ReactWeatherApp from "../images/react-weather-app.png";
 import ReactDictionaryApp from "../images/react-dictionary-app.png";
 import ResponsiveWebsite from "../images/responsive-website.png";
@@ -13,6 +14,7 @@ function Projects() {
           <div className="row mb-4">
             <div className="col-md-6">
               <h4>Weather App rebuilt in React</h4>
+              <p>Lorem ipsum</p>
               <a
                 href="https://laurapetrie-react-weather-app.netlify.app"
                 target="_blank"
@@ -100,6 +102,7 @@ function Projects() {
           </div>
         </div>
       </div>
+      <Socials />
     </div>
   );
 }
