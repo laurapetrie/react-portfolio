@@ -24,7 +24,7 @@
 .About .profile-picture {
   max-width: 300px;
   max-height: 400px;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .About .main {

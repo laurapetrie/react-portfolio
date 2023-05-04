@@ -1,6 +1,6 @@
 import "./About.css";
 import Socials from "./Socials";
-import ProfileImage from "../images/profile-image.jpg";
+import ProfileImage from "../images/about_image.jpg";
 
 function About() {
   return (
@@ -31,7 +31,7 @@ function About() {
                 my need to build and create and so far I'm loving the journey...
               </p>
             </div>
-            <div className="col-md-4 mt-5 pt-5">
+            <div className="col-md-4 mt-5 pt-4">
               <img
                 src={ProfileImage}
                 className="profile-picture img-fluid"
